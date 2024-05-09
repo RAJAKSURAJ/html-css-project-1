@@ -1,0 +1,128 @@
+* {
+  margin: 5px;
+  padding: 5px;
+  font-family: "Orbitron";
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: absolute;
+}
+.headerContent > ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  font-size: 25px;
+  padding: 15px 30px 0 180px;
+}
+.headerContent > ul > li {
+  padding: 0 50px 0 0;
+}
+input {
+  font-size: 25px;
+  width: 100px;
+  height: 20px;
+  border-radius: 10px;
+}
+.search {
+  display: flex;
+  padding-top: 15px;
+}
+.search > input {
+  font-size: 20px;
+  text-align: center;
+}
+.list > .list-item:first-child {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.list > .list-item:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.img {
+  position: relative;
+}
+.image1 {
+  position: absolute;
+}
+.image2 {
+  position: absolute;
+  z-index: -1;
+  height: 220px;
+  left: 170px;
+  top: 200px;
+}
+.container {
+  position: relative;
+  top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  padding-left: 200px;
+}
+.image-globe,
+.globe2,
+.image-start {
+  width: 50px;
+}
+.image-start {
+  padding: 0 0 0 450px;
+}
+.contenttext {
+  font-size: 40px;
+  font-weight: bold;
+  padding-right: 255px;
+}
+.text {
+  width: 600px;
+  align-content: center;
+  text-align: center;
+  text-wrap: wrap;
+  font-family: "Poppins";
+  color: gray;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  padding: 0 100px 0 150px;
+}
+.btn-email {
+  height: 30px;
+  width: 150px;
+  background-color: white;
+  /* font-size: 15px; */
+  border-radius: 10px;
+  text-align: center;
+  font-family: "Orbitron";
+  color: gray;
+}
+.btn-joinus {
+  text-align: center;
+  height: 30px;
+  width: 100px;
+  background-color: black;
+  color: white;
+  /* font-size: 15px; */
+  border-radius: 10px;
+  font-family: "Orbitron";
+}
+.contactus {
+  font-size: 20px;
+  padding: 20px 100px 0 250px;
+  font-family: "Poppins";
+  color: gray;
+}
+.group {
+  padding: 0 50px 0 180px;
+}
+.group > img {
+  width: 30px;
+}
